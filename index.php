@@ -11,6 +11,15 @@ Date: 11/21/2026
 </head>
 <body>
     <script src="scripts/main.js"></script>
-    
+    <h1>
+        <?php "Final Project: Full Stack Development"; ?>
+    </h1>
+    <h2>
+        <?php "Kay Nae Oo"; ?>
+    </h2>
+    <p>
+        <?php "11/21/2026"; ?>
+    </p>
+
 </body>
 </html>
