@@ -21,5 +21,16 @@ Date: 11/21/2026
         <?php echo "11/21/2026"; ?>
     </p>
 
+    <section id="ImageGallery">
+        <img id="Flower" src="media/Flower.jpg" alt="JPG images of Flower"/>
+        <figcaption>This is a picture of a Flower</figcaption>
+
+        <img id="Road" src="media/Road.jpg" alt="JPG images of Road"/>
+        <figcaption>This is a picture of a Road</figcaption>
+
+        <img id="Snow" src="media/Snow.jpg" alt="JPG images of Snow"/>
+        <figcaption>This is a picture of a Snow</figcaption>
+    </section>
+
 </body>
 </html>
