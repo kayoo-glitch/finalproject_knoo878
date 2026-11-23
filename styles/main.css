@@ -1,5 +1,7 @@
 @media screen and (min-width= 768px) {
+    #image-gallery {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    }
 } 
