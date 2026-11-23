@@ -30,7 +30,40 @@ Date: 11/22/2026
 
     $stmt->execute();
     $result = $stmt->search_students();
+
+    if($results != null)
+        {
+            echo "<div class="message">"
+            echo "<table class='fullborder'><tr><th>Student ID</th><th>First Name</th><th>Last Name</th><th>Email</th></tr><tr>";
+            echo "<td>".$results['id']."</td>";
+            echo "<td>".$results['first_name']."</td>";
+            echo "<td>".$results['last_name']."</td>";
+            echo "<td>".$results['email']."</td>";
+            echo "</tr></table>";
+            echo "</div>"
+        }
+        else
+        {
+            echo "<p>No students found</p>";
+        }
     ?>
-    
+    <h3>Search Results</h3>
+    <table>
+        <tr>
+            <th>id</th>
+            <th>first_name</th>
+            <th>last_name</th>
+            <th>email</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <a href="index.php">Return to the home page, index.php</a>
+
 </body>
 </html>
