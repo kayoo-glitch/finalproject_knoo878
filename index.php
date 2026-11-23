@@ -18,7 +18,7 @@ Date: 11/22/2026
         <?php echo "Kay Nae Oo"; ?>
     </h2>
     <p>
-        <?php echo "11/21/2026"; ?>
+        <?php echo "11/22/2026"; ?>
     </p>
 
     <section id="ImageGallery">
