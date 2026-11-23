@@ -2,7 +2,7 @@
 <html lang="en">
 <!--
 Name: Kay Nae Oo
-Date: 11/21/2026
+Date: 11/22/2026
 --> 
 <head>
     <link rel="stylesheet" href="styles/main.css">
@@ -31,6 +31,12 @@ Date: 11/21/2026
         <img id="Snow" src="media/Snow.jpg" alt="JPG images of Snow"/>
         <figcaption>This is a picture of a Snow</figcaption>
     </section>
-
+    
+    <form action="search.php" method="POST">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        <input type="submit" value="Submit">
+    </form>
+    
 </body>
 </html>
