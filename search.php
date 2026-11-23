@@ -29,7 +29,7 @@ Date: 11/22/2026
     $stmt->blind_param("s", $email);
 
     $stmt->execute();
-    $result = $stmt->get_result();
+    $result = $stmt->search_students();
     ?>
     
 </body>
